@@ -1,0 +1,18 @@
+# PyCharm IDE files
+.idea/
+staticfiles/
+
+# pipenv (i think)
+Pipfile
+Pipfile.lock
+
+# VSCode
+.vscode/
+
+# Random stuff
+.venv/
+__pycache__/
+*.sqlite3
+Dockerfile
+fly.toml
+.env
