@@ -3,6 +3,7 @@
 {% block title %}Home{% endblock title %}
 
 {% block content %}
+    
 {% if user.is_authenticated %}
 <p>Hi {{ user.username }}! You are {{  user.age }} years old.</p>
 <p><a href="{% url 'logout' %}">Log Out</a></p><p><a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">
@@ -13,3 +14,4 @@
 <a href="{% url 'signup' %}">Sign Up</a>
 {% endif %}
 {% endblock content %}
+
